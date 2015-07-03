@@ -1,3 +1,6 @@
 [user]
 	name = Ryan Spradlin
 	email = ryan@cotangent.org
+[alias]
+	last = log -1 HEAD
+	unstage = reset HEAD --
