@@ -11,4 +11,7 @@ stow git
 
 # Install Sublime Text 3 configuration
 stow sublime --target="$HOME/Library/Application Support/Sublime Text 3/"
+
+# Install tmux configuration
+stow tmux
 ```
