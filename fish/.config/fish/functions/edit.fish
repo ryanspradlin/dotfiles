@@ -1,3 +1,3 @@
 function edit --description 'Invoke $EDITOR.'
-	eval $EDITOR $argv
+	eval "'$EDITOR_BASE' --new-window" $argv
 end
